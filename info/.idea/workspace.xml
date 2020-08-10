@@ -37,7 +37,6 @@
       <change afterPath="$PROJECT_DIR$/../management/src/main/java/com/hh/management/sysuser/entity/SysUser.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../management/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../management/src/test/java/com/hh/management/ManagementApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/info/controller/helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hh/info/controller/helloworld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,7 @@
       <workItem from="1597028033053" duration="229000" />
       <workItem from="1597028279827" duration="70000" />
       <workItem from="1597028410045" duration="19000" />
-      <workItem from="1597028448371" duration="3356000" />
+      <workItem from="1597028448371" duration="3388000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1597027170900</created>
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597030394257</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="info">
+      <created>1597032635508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597032635508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
