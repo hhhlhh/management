@@ -40,3 +40,11 @@ personinfo:
   age: 3
 myenvironment:
   name: production
+
+com:
+  tt:
+    name: testnn
+    age: 22
+    address[0]: beijing
+    address[1]: shanghai
+    address[2]: guangzhou
