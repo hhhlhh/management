@@ -37,7 +37,7 @@ public class propertTest {
     }
 
     @Test
-    public void getAddress(){
+    public void getAddress() {
         System.out.println(coExameple.getAddress());
     }
 

@@ -13,5 +13,5 @@ public class CoExameple {
     private String name;
     private int age;
     private List<String> address;
-
+    private String role;
 }

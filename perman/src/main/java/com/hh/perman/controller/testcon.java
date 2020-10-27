@@ -10,14 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class testcon {
     @Autowired
     private SenderB senderB;
+
     @RequestMapping("/test")
     public String ttt2() {
         try {
-            User user=new User();
+            User user = new User();
             user.setName("admind");
             user.setAge("28");
             senderB.send(user);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return "fail to send";
         }

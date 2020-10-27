@@ -10,13 +10,6 @@ spring:
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
-    devtools:
-     restart:
-      enabled: true
-      exclude: WEB-INF/**
-    #设置重启的目录
-    #spring.devtools.restart.additional-paths: src/main/java
-    #classpath目录下的WEB-INF文件夹内容修改不重启
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -27,13 +20,20 @@ spring:
     database: MySQL
     show-sql: true
     hibernate.ddl-auto: update
+  devtools:
+    restart:
+      enabled: true
+      exclude: WEB-INF/**
+      additional-paths: src/main/java
+    #设置重启的目录
+    #spring.devtools.restart.additional-paths: src/main/java
+    #classpath目录下的WEB-INF文件夹内容修改不重启
 mybatis:
   mapper-locations: classpath:mapping/*.xml
 
-
-
 age: 19
 name: zhaodabao
+role: vip
 
 personinfo:
   name: zhaoxiaobao

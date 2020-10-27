@@ -25,10 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2b97452-d015-469c-9cac-c22d28b76d94" name="Default Changelist" comment="info">
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/pojo/CoExameple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/controller/hello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/propertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/propertTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" afterPath="$PROJECT_DIR$/../test" afterDir="false" />
     </list>
@@ -113,7 +111,7 @@
       <workItem from="1597028033053" duration="229000" />
       <workItem from="1597028279827" duration="70000" />
       <workItem from="1597028410045" duration="19000" />
-      <workItem from="1597028448371" duration="5165000" />
+      <workItem from="1597028448371" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1597027170900</created>

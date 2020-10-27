@@ -7,5 +7,11 @@
 <body class="container">
 <h1 th:text="infohel">infoo0</h1>
 <h1 th:text="${mav}">mav</h1>
+<p th:text="this is a pa  ${xUser.role} a a  a " </p>
+<div th:switch="xUser.role">
+    <p th:case="admin">管理员</p>
+    <p th:case="vip">vipp</p>
+    <p th:case="*">普通会员</p>
+</div>
 </body>
 </html>

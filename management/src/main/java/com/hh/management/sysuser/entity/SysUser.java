@@ -15,13 +15,13 @@ public class SysUser implements UserDetails {
     @Id
     @GeneratedValue
     private long id;
-    @Column(nullable = false,unique = true)
+    @Column(nullable = false, unique = true)
     private String name;
     private String password;
     private String cnname;
-    private Boolean enabled=Boolean.TRUE;
+    private Boolean enabled = Boolean.TRUE;
 
-    @ManyToMany(cascade = {CascadeType.REFRESH},fetch = FetchType.EAGER)
+    @ManyToMany(cascade = {CascadeType.REFRESH}, fetch = FetchType.EAGER)
     private List<SysRole> roles;
 
     @Override

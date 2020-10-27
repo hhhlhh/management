@@ -10,32 +10,34 @@ public class RabbitmqConfig {
     public Queue queue() {
         return new Queue("Queue2");
     }
+
     @Bean
-    public Queue objectque(){
+    public Queue objectque() {
         return new Queue("object");
     }
 
     @Bean
-    public Queue queueMessage(){
+    public Queue queueMessage() {
         return new Queue("topic.a");
     }
+
     @Bean
-    public Queue queueMessages(){
+    public Queue queueMessages() {
         return new Queue("topic.b");
     }
 
     @Bean
-    TopicExchange exchange(){
+    TopicExchange exchange() {
         return new TopicExchange("topicExchange");
     }
 
     @Bean
-    Binding bindingExchange(Queue queueMessage,TopicExchange exchange){
+    Binding bindingExchange(Queue queueMessage, TopicExchange exchange) {
         return BindingBuilder.bind(queueMessage).to(exchange).with("topic.a");
     }
 
     @Bean
-    Binding bindingExchanges(Queue queueMessages,TopicExchange exchange){
+    Binding bindingExchanges(Queue queueMessages, TopicExchange exchange) {
         return BindingBuilder.bind(queueMessages).to(exchange).with("topic.b");
     }
 }

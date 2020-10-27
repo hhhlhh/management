@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${mav}">mav</title>
+</head>
+<body class="container">
+<h1 th:text="infohel">tbUser test</h1>
+<h1 th:text="${mav}">mav</h1>
+
+<div>
+    <!-- 显示由控制器传递过来的实体user的值-->
+    <div th:text="${neUser.name}"></div>
+    <div th:text="${neUser.role}"></div>
+</div>
+
+<div th:text="'this is  '+${neUser.role}+'  just'"></div>
+<div th:switch="${neUser.role}">
+    <p th:case="admin">管理员</p>
+    <p th:case="vip">vipp</p>
+    <p th:case="*">普通会员</p>
+</div>
+</body>
+</html>

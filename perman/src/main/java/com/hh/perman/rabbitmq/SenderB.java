@@ -9,8 +9,9 @@ import org.springframework.stereotype.Component;
 public class SenderB {
     @Autowired
     private AmqpTemplate rabbitTemplate;
-    public void send(User user){
-        System.out.println("sender:"+user.toString());
-        this.rabbitTemplate.convertAndSend("fortestq",user);
+
+    public void send(User user) {
+        System.out.println("sender:" + user.toString());
+        this.rabbitTemplate.convertAndSend("fortestq", user);
     }
 }

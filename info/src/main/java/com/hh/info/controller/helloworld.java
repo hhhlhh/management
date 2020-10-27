@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class helloworld {
     @RequestMapping("/hhhh")
-    public String hellowo() throws Exception{
+    public String hellowo() throws Exception {
 
         return "just test";
 

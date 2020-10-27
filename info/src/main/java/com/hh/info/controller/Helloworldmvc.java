@@ -9,10 +9,10 @@ import java.util.List;
 @Controller
 public class Helloworldmvc {
     @RequestMapping("/hello")
-    public String hello(Model model){
+    public String hello(Model model) {
         List mav = null;
 
-        model.addAttribute("fd",mav);
+        model.addAttribute("fd", mav);
 
         return "info/hello";
     }

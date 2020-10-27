@@ -110,13 +110,13 @@
                         </goals>
                     </execution>
                 </executions>
-            <configuration>
-                <verbose>true</verbose>
-                <override>true</override>
-                <configurationFile>
-                    src/main/resources/mybatis-generator.xml
-                </configurationFile>
-            </configuration>
+                <configuration>
+                    <verbose>true</verbose>
+                    <override>true</override>
+                    <configurationFile>
+                        src/main/resources/mybatis-generator.xml
+                    </configurationFile>
+                </configuration>
 
             </plugin>
         </plugins>
